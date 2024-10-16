@@ -1,0 +1,126 @@
+
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/newspaper-bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/52/34/75/1000_F_252347511_7vNunhWXrhbuvJ6v7meKytYKWt1CCV59.jpg");
+    background-color: grey; 
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#FFFFF0; 
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.news-item {
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    width: 30%; 
+    margin-bottom: 20px;
+    text-align: center;
+    color:black
+
+}
+
+
+.news-item img {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #ffffff; 
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: black; 
+    margin-bottom: 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.breaking-news {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    text-align: center;
+    color: white; 
+}
+
+.description {
+    font-size: 16px;
+    color: #ccc; 
+    text-align: center;
+    margin-bottom: 20px;
+}

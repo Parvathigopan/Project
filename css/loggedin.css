@@ -1,0 +1,80 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white */
+}
+
+/* Basic container styling for content */
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styling for each news item */
+.news-item {
+    margin-bottom: 20px;
+}
+
+/* Styling for images */
+.news-item img {
+    width: 150px; /* Set smaller width */
+    height: 100px; /* Set smaller height */
+    object-fit: cover; /* Ensure the image scales properly */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph below each image */
+.news-item p {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Header section */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Marquee (Breaking News) */
+marquee {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 10px 0;
+}
