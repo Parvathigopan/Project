@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>News Website - Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+
+    <div class="container">
+        <form action="loggedin.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <p>Which news do you want?</p>
+            <input type="checkbox" id="trade" name="news" value="Trade">
+            <label for="trade">Trade</label><br>
+            <input type="checkbox" id="current_affairs" name="news" value="Current Affairs">
+            <label for="current_affairs">Current Affairs</label><br>
+            <input type="checkbox" id="sports" name="news" value="Sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="movies" name="news" value="Movies">
+            <label for="movies">Movies</label><br>
+            <input type="checkbox" id="jobs" name="news" value="Jobs">
+            <label for="jobs">Jobs</label><br><br>
+
+            <button type="submit" class="btn">Register</button>
+        </form>
+
+        <p>Already have an account? <a href="login.html" class="btn">Sign In </a></p>
+    </div>
+</body>
+</html>
